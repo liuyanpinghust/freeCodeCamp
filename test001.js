@@ -5,9 +5,11 @@
 
 你的结果必须得是一个字符串*/
 function reverseString(str) {
-  // 请把你的代码写在这里
+  
   var newstr = str.split("").reverse().join("");
   return newstr;
 }
 
 reverseString("hello");
+
+reverseString("HelloWorld");
